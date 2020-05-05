@@ -22,4 +22,4 @@ for i in range(0, years*12):
 
     final_amount = (final_amount + monthly_invest) * (1 + interest/12)
 
-print('After {} years you will have '.format(years) + "${:,.2f}".format(final_amount))
+print('After {} years you will have '.format(years) + "Rs-{:,.2f}".format(final_amount))
